@@ -4,19 +4,13 @@
   "description": "This is sample todo app with express and nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
   },
-  "author": "",
+  "author": "Sanket Patel",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.0.2",
     "express": "^4.17.1"
-  },
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/"
-    }
-  ]
+  }
 }
